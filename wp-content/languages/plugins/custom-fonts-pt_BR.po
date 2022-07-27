@@ -1,0 +1,159 @@
+# Translation of Plugins - Custom Fonts - Stable (latest release) in Portuguese (Brazil)
+# This file is distributed under the same license as the Plugins - Custom Fonts - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-01-20 10:28:19+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Plugins - Custom Fonts - Stable (latest release)\n"
+
+#: classes/class-bsf-custom-fonts-render.php:146
+msgid "Custom"
+msgstr "Personalizado"
+
+#: includes/white-label.php:34
+msgid "Plugin Description:"
+msgstr "Descrição do Plugin:"
+
+#: includes/white-label.php:29
+msgid "Plugin Name:"
+msgstr "Nome do Plugin:"
+
+#: includes/white-label.php:18 includes/white-label.php:23
+msgid "Custom Fonts Branding"
+msgstr "Identidade do Custom Fonts"
+
+#. Author URI of the plugin
+msgid "http://www.brainstormforce.com"
+msgstr "http://www.brainstormforce.com"
+
+#. Author of the plugin
+msgid "Brainstorm Force"
+msgstr "Brainstorm Force"
+
+#. Description of the plugin
+msgid "Custom Fonts allows you to add more fonts that extend formatting options in your site."
+msgstr "Custom Fonts permite que você adicione mais fontes que estendem as opções de formatação em seu site."
+
+#. Plugin URI of the plugin
+msgid "http://www.wpastra.com/"
+msgstr "http://www.wpastra.com/"
+
+#: includes/class-bsf-custom-fonts-taxonomy.php:94
+msgid "No fonts found"
+msgstr "Nenhuma fonte encontrada"
+
+#: includes/class-bsf-custom-fonts-taxonomy.php:93
+msgid "New Font Name"
+msgstr "Novo nome da fonte"
+
+#: includes/class-bsf-custom-fonts-taxonomy.php:92
+msgid "Add New Font"
+msgstr "Adicione nova fonte"
+
+#: includes/class-bsf-custom-fonts-taxonomy.php:91
+msgid "Update Font"
+msgstr "Atualização da fonte"
+
+#: includes/class-bsf-custom-fonts-taxonomy.php:90
+msgid "Edit Font"
+msgstr "Editar fonte"
+
+#: includes/class-bsf-custom-fonts-taxonomy.php:89
+msgid "Parent Font:"
+msgstr "Ascendente da fonte:"
+
+#: includes/class-bsf-custom-fonts-taxonomy.php:88
+msgid "Parent Font"
+msgstr "Ascendente da fonte"
+
+#: includes/class-bsf-custom-fonts-taxonomy.php:87
+msgid "All Fonts"
+msgstr "Todas as fontes"
+
+#: includes/class-bsf-custom-fonts-admin.php:229
+#: includes/class-bsf-custom-fonts-admin.php:332
+msgid "Font .woff2"
+msgstr "Fonte .woff2"
+
+#: includes/class-bsf-custom-fonts-admin.php:117
+msgid "The name of the font as it appears in the customizer options."
+msgstr "O nome da fonte como aparece nas opções do personalizador."
+
+#: includes/class-bsf-custom-fonts-taxonomy.php:86
+msgid "Search Fonts"
+msgstr "Pesquisar fonte"
+
+#: includes/class-bsf-custom-fonts-taxonomy.php:85
+msgctxt "Admin menu name"
+msgid "Custom Fonts"
+msgstr "Custom Fonts"
+
+#: includes/class-bsf-custom-fonts-taxonomy.php:84
+msgid "Font"
+msgstr "Fonte"
+
+#: includes/class-bsf-custom-fonts-admin.php:396
+#: includes/class-bsf-custom-fonts-admin.php:556
+msgid "Upload"
+msgstr "Enviar"
+
+#: includes/class-bsf-custom-fonts-admin.php:233
+#: includes/class-bsf-custom-fonts-admin.php:340
+msgid "Upload the font's svg file or enter the URL."
+msgstr "Enviar o arquivo svg da fonte ou digite a URL."
+
+#: includes/class-bsf-custom-fonts-admin.php:233
+#: includes/class-bsf-custom-fonts-admin.php:340
+msgid "Font .svg"
+msgstr "Fonte .svg"
+
+#: includes/class-bsf-custom-fonts-admin.php:232
+#: includes/class-bsf-custom-fonts-admin.php:338
+msgid "Upload the font's eot file or enter the URL."
+msgstr "Enviar o arquivo eot da fonte ou digite a URL."
+
+#: includes/class-bsf-custom-fonts-admin.php:232
+#: includes/class-bsf-custom-fonts-admin.php:338
+msgid "Font .eot"
+msgstr "Fonte .eot"
+
+#: includes/class-bsf-custom-fonts-admin.php:231
+#: includes/class-bsf-custom-fonts-admin.php:336
+msgid "Upload the font's ttf file or enter the URL."
+msgstr "Enviar o arquivo ttf da fonte ou digite a URL."
+
+#: includes/class-bsf-custom-fonts-admin.php:231
+#: includes/class-bsf-custom-fonts-admin.php:336
+msgid "Font .ttf"
+msgstr "Fonte .ttf"
+
+#: includes/class-bsf-custom-fonts-admin.php:230
+#: includes/class-bsf-custom-fonts-admin.php:334
+msgid "Upload the font's woff file or enter the URL."
+msgstr "Enviar o arquivo woff da fonte ou digite a URL."
+
+#: includes/class-bsf-custom-fonts-admin.php:230
+#: includes/class-bsf-custom-fonts-admin.php:334
+msgid "Font .woff"
+msgstr "Fonte .woff"
+
+#: includes/class-bsf-custom-fonts-admin.php:229
+#: includes/class-bsf-custom-fonts-admin.php:332
+msgid "Upload the font's woff2 file or enter the URL."
+msgstr "Enviar o arquivo woff2 da fonte ou digite a URL."
+
+#. Plugin Name of the plugin
+#: includes/class-bsf-custom-fonts-admin.php:87
+#: includes/class-bsf-custom-fonts-taxonomy.php:83
+msgid "Custom Fonts"
+msgstr "Custom Fonts"
+
+#. translators: 1: Astra theme from wordpress.org
+#: classes/class-bsf-custom-fonts-render.php:420
+msgid "Custom Fonts Plugin requires minimum 1.0.16 version of the Astra Theme."
+msgstr "O plugin Custom Fonts requer uma versão mínima 1.0.16 do tema Astra."

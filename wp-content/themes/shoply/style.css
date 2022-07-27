@@ -1,0 +1,284 @@
+/*
+Theme Name: Shoply
+Theme URI: https://sellerthemes.com/storely/
+Author: Seller Themes
+Author URI: https://sellerthemes.com/
+Description: Shoply is a WooCommerce multipurpose WordPress theme designed for shopping online stores. Shoply is suitable for eCommerce websites such as fashion, suit, sneaker, shoes, glasses, accessories, supermarket … or anything you want. The theme is built with lots of cool features and fully eCommerce functionalities in Pro version. Visit Shoply pro demo. https://preview.sellerthemes.com/pro/shoply/
+Template: storely
+Version: 1.0.6
+Tested up to: 6.0
+Requires PHP: 5.6
+License: GPLv3 or later
+License URI:  https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: shoply
+Slug: shoply
+Tags: one-column, two-columns, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu,  custom-logo, featured-image-header, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, blog, e-commerce, portfolio, editor-style, grid-layout
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+*/
+
+
+/* Colors */
+
+:root {
+    --bs-primary:#82b638;
+    --bs-primary-dark:#e76800;
+    --bs-primary-light: #fbf0f0;
+}
+
+.header2 #browse-section .widget_nav_menu .sub-menu {
+    position: absolute;
+    z-index: 99;
+    width: 220px;
+    background: var(--bs-white);
+    padding: 4px 0;
+    margin: 0;
+    border: 0;
+    right: -20%;
+    border-radius: 0;
+    -moz-box-shadow: 0 -8px 16px rgba(0, 0, 0, 0.075);
+    box-shadow: 0 -8px 16px rgb(0 0 0 / 8%);
+    font-size: 1rem;
+    text-align: left;
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    border-bottom-width: 4px;
+    border-style: solid;
+    border-color: var(--bs-primary);
+}
+
+.header2 #browse-section .widget_nav_menu .menu-item:hover .sub-menu {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+}
+
+
+.header2 button.product-category-btn {
+    background: var(--bs-primary);
+}
+
+.header2 #browse-section .widget_nav_menu .sub-menu li a {
+    border-bottom: 1px solid #e1e1e1;
+    color: var(--bs-secondary-dark);
+    font-weight: 600;
+    line-height: 24px;
+    padding: 8px 18px 8px 18px;
+    text-transform: none;
+    white-space: normal;
+    display: block;
+}
+
+.header2 #browse-section .widget_nav_menu li.menu-item-has-children > a:after {
+    content: "\f107";
+    font-family: var(--bs-font-awesome);
+    font-weight: 700;
+    position: absolute;
+    top: 0;
+    right: 5px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    color: inherit;
+    font-size: 16px;
+    -webkit-transition: all 0.35s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.35s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+
+.header2 .main-navbar:not(.breadcrumb-menu) .main-menu > li > a {
+    line-height: 58px;
+} 
+
+.header2 #browse-section #menu-language-menu a {
+    color: var(--bs-secondary);
+    padding-right: 20px;
+}
+
+.header2 #browse-section .navbar-area {
+    border: 1px solid #e8e8e8;
+    margin-bottom: 24px;
+}
+
+.header2 #browse-section .main-navbar.menu-bar {
+    padding: 11px 0;
+    border: 1px solid #e8e8e8;
+}
+
+.header2 #browse-section .main-navbar.menu-bar select{
+	min-height:36px;
+}
+
+.header2 #browse-section .main-navbar.menu-bar.menu-bar-right p {
+    line-height: 1;
+    text-align: center;
+}
+
+.header2 #browse-section .main-navbar.menu-bar .widget.widget_nav_menu .menu li > a > img {
+    display: inline-block;
+    width: auto !important;
+    height: 16px !important;
+    margin-right: 5px;
+    transform: translateY(0);
+}
+.header2 #browse-section .widget_nav_menu .menu > .menu-item > .sub-menu:before {
+    content: "";
+    position: absolute;
+    top: auto;
+    bottom: -10px;
+    right: 20px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+
+.header2 #browse-section .widget_nav_menu .menu > .menu-item > .sub-menu:before {
+    top: -10px;
+    border-bottom: 10px solid var(--bs-white);
+}
+
+.header-search-form .header-search-select,
+#main-header2 .header-search-form .header-search-select,
+#main-header3 .header-search-form .header-search-select,
+.header5 .header-search-form .header-search-select {
+    width: 30%;
+    display: inline-block;
+    border: none;
+    float: right;
+    cursor: pointer;
+    min-height: 60px;
+    border-left: 1px solid #e8e8e8;
+    padding: 14px 29px 14px 19px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline-offset: -5px;
+    background: url("data:image/svg+xml;utf8,<svg fill='rgb(36 39 46)' height='25' viewBox='0 0 24 24' width='25' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>")
+        no-repeat 92% 16.5px;
+}
+
+
+.header2 #main-header2 .widget_social_widget li a {
+    background-color: transparent;
+    border: 1px solid var(--bs-secondary);
+}
+.header2 #main-header2 .widget_social_widget li a i {
+    color: var(--bs-secondary);
+}
+.header2 #main-header2 .widget_social_widget li a:hover i {
+    color: var(--bs-primary);
+}
+
+.header2 #main-header2 .widget_social_widget li a {
+    border: none;
+    overflow: visible;
+}
+.header2 #main-header2 .widget_social_widget li a:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid var(--bs-secondary);
+    border-radius: 50%;
+    transition: all 0.2s linear 0s;
+}
+.header2 #main-header2 .widget_social_widget li a:hover:after {
+    height: 0px;
+    top: 100%;
+    border-color: var(--bs-primary);
+}
+
+
+.slider2 .home-slider-info-wrapper .slider-silde-info .slide-text-title {
+    color: #ffffff;
+}
+
+.slider2 .home-slider-info-wrapper .slider-silde-info .slide-text-description {
+    color: #ffffff;
+}
+
+.slider2 .slider-section .slider-info,
+.slider3 .slider-section .slider-info {
+    min-height: 247px;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+    height: 247px;
+}
+
+.slider2 .slider-section .slider-info .slide-text.btn-white:hover,
+.slider2 .slider-section .slider-info .slide-text.btn-white:focus,
+.slider3 .slider-section .slide-text.btn-white:hover,
+.slider3 .slider-section .slide-text.btn-white:focus {
+    color: var(--bs-white);
+    background-color: var(--bs-secondary);
+}
+
+.slider2 .slider-section .slider-info img,
+.slider3 .slider-section .slider-info img {
+    object-fit: fill;
+    min-height: 197px;
+    height: 100%;
+    width: 100%;
+    transform: scale(1);
+    transition: 1s linear;
+}
+
+.slider2 .slider-section .slider-info .slider-area,
+.slider3 .slider-section .slider-info .slider-area {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    padding: 20px 10px 10px 20px;
+}
+
+.slider2 .slider-section .slider-info >img:hover, .slider3 .slider-section .slider-info >img:hover, .slider2 .slider-section .slider-info >img:focus-within, .slider3 .slider-section .slider-info >img:focus-within {
+    transform: scale(1.2);
+}
+
+.high-bg {
+    background-color: #ffffff;
+    color: var(--bs-primary);
+    padding: 5px 10px;
+}
+
+.header-search-form {
+    margin-bottom: 0;
+	overflow: hidden;
+}
+
+.header2 #browse-section .main-navbar.menu-bar.menu-bar-right select {
+    border: none;
+    background: none;
+}
+
+.header-search-form .header-search-button {
+    border: 1px solid var(--bs-secondary);
+    background-color: var(--bs-secondary) !important;
+}	
+
+.footer-widgets .widget_products li a:before {
+    content: none !important;
+}
+
+.footer-widgets .widget_products li a {
+	display: contents !important;
+}
+
+.sidebar .wp-block-woocommerce-mini-cart {
+    padding: 20px 12px;
+}

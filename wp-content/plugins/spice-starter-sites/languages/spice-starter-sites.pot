@@ -1,0 +1,184 @@
+# Spice Starter Sites
+# Copyright 2022 ...
+# This file is distributed under the GNU General Public License v3 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: "
+"Spice Starter Sites "
+"v1.0.0\n"
+"Report-Msgid-Bugs-To: "
+"Translator Name "
+"<translations@example."
+"com>\n"
+"POT-Creation-Date: "
+"2022-05-27 18:37+0530\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your "
+"Name <you@example.com>\n"
+"Language-Team: Your Team "
+"<translations@example."
+"com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/"
+"plain; charset=UTF-8\n"
+"Content-Transfer-"
+"Encoding: 8bit\n"
+"Plural-Forms: "
+"nplurals=2; plural=n != "
+"1;\n"
+"X-Textdomain-Support: "
+"yesX-Generator: Poedit "
+"1.6.4\n"
+"X-Poedit-SourceCharset: "
+"UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html_e;"
+"esc_html_x:1,2c;"
+"esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;"
+"esc_attr__;_ex:1,2c;"
+"_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;"
+"_n:1,2;_n_noop:1,2;"
+"__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit "
+"3.0.1\n"
+"X-Poedit-"
+"SearchPath-0: .\n"
+
+#: demo-content/setup.php:20
+msgid "Construction"
+msgstr ""
+
+#: demo-content/setup.php:29
+msgid "Architect"
+msgstr ""
+
+#: demo-content/setup.php:38
+msgid "Charity"
+msgstr ""
+
+#: demo-content/setup.php:47
+msgid ""
+"Professional Services"
+msgstr ""
+
+#: demo-content/setup.php:56
+msgid "Dental Care"
+msgstr ""
+
+#: demo-content/setup.php:65
+msgid "Digital Marketing"
+msgstr ""
+
+#: demo-content/setup.php:74
+msgid "Modern Agency"
+msgstr ""
+
+#: demo-content/setup.php:83
+msgid "Office"
+msgstr ""
+
+#: demo-content/setup.php:92
+msgid "Business"
+msgstr ""
+
+#: demo-content/setup.php:98
+msgid "Travel"
+msgstr ""
+
+#: demo-content/setup.php:104
+msgid "Spacare"
+msgstr ""
+
+#: demo-content/setup.php:110
+msgid "Interior"
+msgstr ""
+
+#: demo-content/setup.php:116
+msgid "Real Estate"
+msgstr ""
+
+#: demo-content/setup.php:122
+msgid "Skin Spa"
+msgstr ""
+
+#: demo-content/setup.php:128
+msgid "Healthcare"
+msgstr ""
+
+#: demo-content/setup.php:134
+msgid "Gymer"
+msgstr ""
+
+#: demo-content/setup.php:140
+msgid "Yoga"
+msgstr ""
+
+#: demo-content/setup.php:146
+msgid "Massage"
+msgstr ""
+
+#: demo-content/setup.php:152
+msgid "Finance"
+msgstr ""
+
+#: demo-content/setup.php:158
+msgid "Industry"
+msgstr ""
+
+#: demo-content/setup.php:164
+msgid "Coffee Shop"
+msgstr ""
+
+#: demo-content/setup.php:170
+msgid "Insurance"
+msgstr ""
+
+#: demo-content/setup.php:176
+msgid "Creative Agency"
+msgstr ""
+
+#: demo-content/setup.php:182
+msgid "Adventure"
+msgstr ""
+
+#: demo-content/setup.php:188
+msgid "Carpenter"
+msgstr ""
+
+#: demo-content/setup.php:194
+msgid "Startup Agency"
+msgstr ""
+
+#: demo-content/setup.php:246
+msgid ""
+"One Click Demo Import"
+msgstr ""
+
+#: demo-content/setup.php:247
+msgid "Starter Sites"
+msgstr ""
+
+#: spice-starter-sites.php:66
+msgid ""
+"\"Spice Starter Sites\" "
+"requires \"One Click "
+"Demo Import\" to be "
+"installed and activated."
+msgstr ""
+
+#: spice-starter-sites.php:71
+msgid ""
+"Spice Starter Sites "
+"requires PHP 5.4. Please "
+"contact your host to "
+"upgrade your PHP. The "
+"plugin was <strong>not</"
+"strong> activated."
+msgstr ""
